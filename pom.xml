@@ -25,13 +25,22 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
             <configuration>
                 <mainClass>edu.concordia.java.sam.MagicNumber</mainClass>
                 <arguments>
-                    <argument>20.00f</argument>
                     <argument>1.1556f</argument>
+                    <argument>20.00f</argument>
+                    <argument>40.00f</argument>
                 </arguments>
                 <useMavenLogger>true</useMavenLogger>
             </configuration>
         </plugin>
     </plugins>
 </build>
+    <dependencies>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations-java5</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>

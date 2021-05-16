@@ -9,8 +9,8 @@ public class MagicNumber {
     public static void main(String[] args) {
 
         // Arguments
-        final float ARG_PRICE = Float.parseFloat(args[0]);
-        final float ARG_TAX_RATE = Float.parseFloat(args[1]);
+        final float ARG_TAX_RATE = Float.parseFloat(args[0]);
+        final float ARG_PRICE = Float.parseFloat(args[2]);
 
         // Calculation
         float totalPrice = ARG_PRICE * ARG_TAX_RATE;
